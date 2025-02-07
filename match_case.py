@@ -8,5 +8,5 @@ match command:
         print("Запуск")
     case "stop":
         print("Остановка")
-    case _: # _: означает else
+    case _: # _ означает else
         print("Неизвестная команда")
